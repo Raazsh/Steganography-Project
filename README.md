@@ -1,18 +1,18 @@
 # Steganography-Project
 Secure Data Hiding in Images Using Steganography
 
-Introduction
+//Introduction
 
 This project demonstrates image-based steganography, a technique to hide secret messages inside an image while keeping it visually unchanged. The hidden message can be securely retrieved using a passcode.
 
-Features
+//Features
 
 ✅ Hides messages inside an image without noticeable changes
 ✅ Password-protected decryption
 ✅ Uses OpenCV for image processing
 ✅ Lightweight and simple implementation
 
-Requirements
+//Requirements
 
 Make sure you have the following installed:
 
@@ -21,7 +21,7 @@ Python 3.x
 OpenCV (pip install opencv-python)
 
 
-How to Use
+//How to Use
 
 1. Encryption (Hiding the Message)
 
@@ -47,7 +47,7 @@ If the password matches, the hidden message is revealed.
 If the password is incorrect, access is denied.
 
 
-Project Structure
+//Project Structure
 
 /Steganography-Project
 │── steganography.py  # Main script for encryption & decryption
